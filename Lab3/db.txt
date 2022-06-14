@@ -1,0 +1,45 @@
+﻿clauses
+    employee(1, "Alena", female, "07.09.2002", "2021/05/12").
+    employee(2, "Olya", female, "05.07.2002", "2021/07/10").
+    employee(3, "Nikita", male, "31.08.2002", "2020/03/13").
+    employee(4, "Ivan", male, "19.01.2001", "2020/10/01").
+    employee(5, "Stepan", male, "05.04.2001", "2021/02/21").
+    employee(6, "Roman", male, "09.07.2002", "2021/02/14").
+    employee(7, "Andrew", male, "06.01.2002", "2021/07/23").
+    employee(8, "Oleg", male, "05.08.2002", "2021/11/25").
+    employee(9, "Daniil", male, "17.01.2002", "2021/04/27").
+    employee(10, "Ilya", male, "22.02.2002", "2021/09/01").
+    employee(11, "Vladimir", male, "20.03.2002", "2021/01/22").
+    employee(12, "Anton", male, "06.12.2002", "2021/11/11").
+    employee(13, "Egor", male, "11.11.2002", "2021/04/01").
+    employee(14, "Dima", male, "02.07.2002", "2019/05/13").
+    employee(15, "Damir", male, "09.05.2002", "2020/01/12").
+
+    departament(1, "IT").
+    departament(2, "Risks").
+    departament(3, "Finance").
+    departament(4, "Communication").
+
+    job(1, "junior", 100, "IT specialist with experience < 2 years", 1).
+    job(2, "middle", 200, "IT specialist with experience 2-5 years", 1).
+    job(3, "senior", 500, "IT specialist with experience >5 years", 1).
+    job(4, "analyst", 250, "Analytics specialist with experience >3 years", 2).
+    job(5, "manager", 275, "Financial specialist with experience >3 years", 3).
+    job(6, "accountant", 500, "Financial specialist with experience >5 years", 3).
+    job(7, "HR", 220, "Specialist of recruitment with experience >2 years", 4).
+
+    assign(1, 4, "01.10.2020").
+    assign(2, 1, "12.05.2021").
+    assign(3, 2, "15.01.2022").
+    assign(4, 2, "11.04.2021").
+    assign(5, 3, "14.02.2021").
+    assign(6, 3, "19.07.2021").
+    assign(7, 3, "14.09.2021").
+    assign(8, 4, "11.02.2021").
+    assign(9, 4, "25.02.2021").
+    assign(10, 5, "22.03.2022").
+    assign(11, 5, "15.01.2022").
+    assign(12, 5, "05.11.2021").
+    assign(13, 6, "12.05.2022").
+    assign(14, 7, "01.06.2022").
+    assign(15, 7, "17.02.2022").
